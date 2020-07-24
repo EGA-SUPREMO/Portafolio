@@ -10259,3 +10259,11 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+
+.projects {
+  font-weight: bold;
+  color: #fff;
+}
+a.projects {
+  text-decoration: underline;
+}
