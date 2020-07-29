@@ -143,21 +143,21 @@
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                                     <label><?php echo $form['name']; ?></label>
-                                    <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name." />
+                                    <input class="form-control" id="name" type="text" placeholder="<?php echo $form['name']; ?>" required="required" data-validation-required-message="<?php echo $form['name required']; ?>" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                                     <label><?php echo $form['email']; ?></label>
-                                    <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." />
+                                    <input class="form-control" id="email" type="email" placeholder="<?php echo $form['email']; ?>" required="required" data-validation-required-message="<?php echo $form['email required']; ?>" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                                     <label><?php echo $form['message']; ?></label>
-                                    <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea class="form-control" id="message" rows="5" placeholder="<?php echo $form['message']; ?>" required="required" data-validation-required-message="<?php echo $form['message required']; ?>"></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
