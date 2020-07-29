@@ -14,7 +14,17 @@
                                 <img class="icon dark" src="assets/svg/star.svg"></img>
                                 <div class="divider-custom-line"></div>
                             </div>
-                            <a href="<?php echo $portfolios[$i]['link']; ?>"><img class="img-fluid rounded mb-5" src="assets/img/portfolio/<?php echo $portfolios[$i]['title']; ?>.png" alt="" /></a>
+                            <a href="<?php echo $portfolios[$i]['link']; ?>">
+                            <?php if($imgInfos[$i]['type']==='webp') { ?>
+                                <picture>
+                                    <source type="image/webp" srcset="assets/img/portfolio/<?php echo $imgInfos[$i]['name'];?>.webp">
+                                    <source type="image/jpeg" srcset="assets/img/portfolio/<?php echo $imgInfos[$i]['name'];?>.jpg">
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/<?php echo $imgInfos[$i]['name'];?>.jpg" alt=""/>
+                                </picture>
+                            <?php } else { ?>
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/<?php echo $imgInfos[$i]['name'].'.'.$imgInfos[$i]['type']; ?>" alt=""/>
+                            <?php } ?>
+                            </a>
                             <h5 class="mt-1"><?php echo $portfolios[$i]['subtitle']; ?></h5>
                             <?php
                             if (isset($portfolios[$i]['content'])) {

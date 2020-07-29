@@ -20,5 +20,13 @@ $portfolios = [
     include_once 'assets/lang/'.LOCALE.'/portfolio 5.php',
     include_once 'assets/lang/'.LOCALE.'/portfolio 6.php',
 ];
+$imgInfos = [
+    include_once 'assets/lang/img-info 1.php',
+    include_once 'assets/lang/img-info 2.php',
+    include_once 'assets/lang/img-info 3.php',
+    include_once 'assets/lang/img-info 4.php',
+    include_once 'assets/lang/img-info 5.php',
+    include_once 'assets/lang/img-info 6.php',
+];
 
 include_once 'views/home.php';
