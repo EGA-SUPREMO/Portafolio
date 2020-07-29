@@ -20,8 +20,8 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portafolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about"><?php echo $common['about']; ?></a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact"><?php echo $common['contact']; ?></a></li>
                     </ul>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                     <img class="icon" src="assets/svg/star.svg"></img>
                     <div class="divider-custom-line"></div>
                 </div>
-                <p class="masthead-subheading font-weight-light mb-0">PHP Developer - Web Designer - Translator</p>
+                <p class="masthead-subheading font-weight-light mb-0"><?php echo $common['positions']; ?></p>
             </div>
         </header>
         <section class="page-section portfolio" id="portfolio">
@@ -112,27 +112,26 @@
         </section>
         <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white"><?php echo $common['about']; ?></h2>
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <img class="icon" src="assets/svg/star.svg"></img>
                     <div class="divider-custom-line"></div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 ml-auto"><p class="lead"><b class="projects">Self-taught developer</b> who perseveres through regular death marches. <b class="projects">Excellent problem-solving abilities</b>. A team player with a can-do attitude.
-                    With good communication skills being fluent in <b class="projects">English</b>, <b class="projects">Spanish</b>, and <b class="projects">Esperanto</b>.</p></div>
-                    <div class="col-lg-4 mr-auto"><p class="lead">Having worked in open-source projects in the past <b class="projects">5 years</b>, like <a class="projects" href="https://laravel.com">Laravel</a> (core and docs), <a class="projects" href="https://github.com/chrislgarry/Apollo-11">the Apollo 11</a> and <a class="projects" href="https://codingcoach.io">CodingCoach</a> (references upon request).</p></div>
+                    <div class="col-lg-4 ml-auto"><p class="lead"><?php echo $about['content 1']; ?></p></div>
+                    <div class="col-lg-4 mr-auto"><p class="lead"><?php echo $about['content 2']; ?></p></div>
                 </div>
                 <div class="text-center mt-4">
                     <a class="btn btn-xl btn-outline-light js-scroll-trigger" href="#contact">
-                        Get in Touch!
+                        <?php echo $about['get in touch']; ?>
                     </a>
                 </div>
             </div>
         </section>
         <section class="page-section" id="contact">
             <div class="container">
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0"><?php echo $common['contact me']; ?></h2>
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <img class="icon dark" src="assets/svg/star.svg"></img>
@@ -143,28 +142,28 @@
                         <form id="contactForm" name="sentMessage" novalidate="novalidate">
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Name</label>
+                                    <label><?php echo $form['name']; ?></label>
                                     <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name." />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Email Address</label>
+                                    <label><?php echo $form['email']; ?></label>
                                     <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Message</label>
+                                    <label><?php echo $form['message']; ?></label>
                                     <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <br />
                             <div id="success"></div>
-                            <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
+                            <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit"><?php echo $form['send']; ?></button></div>
                         </form>
                     </div>
                 </div>
@@ -182,17 +181,15 @@
                         </p>
                     </div>
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <h4 class="text-uppercase mb-4"><?php echo $footer['social buttons']; ?></h4>
                         <a class="btn btn-outline-light btn-social mx-1 i" href="https://github.com/EGA-SUPREMO"><img class="icon" src="assets/svg/github.svg"></img></a>
                         <a class="btn btn-outline-light btn-social mx-1 i" href="https://wa.me/584262464450"><img class="icon" src="assets/svg/whatsapp.svg"></img></a>
                         <a class="btn btn-outline-light btn-social mx-1 i" href="https://www.linkedin.com/in/alejandro-gar"><img class="icon" src="assets/svg/linkedin-in.svg"></img></a>
                         <a class="btn btn-outline-light btn-social mx-1 i" href="https://stackoverflow.com/users/7431197/alejandro-garcia"><img class="icon" src="assets/svg/stack-overflow.svg"></img></a>
                     </div>
                     <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">Suggest edit!</h4>
-                        <p class="lead mb-0">
-                            Found a typo or mistake?
-                            <a href="https://github.com/EGA-SUPREMO/Portafolio/issues/new">Let me know!</a>
+                        <h4 class="text-uppercase mb-4"><?php echo $footer['suggest edit']; ?></h4>
+                        <p class="lead mb-0"><?php echo $footer['suggest edit content']; ?></a>
                         </p>
                     </div>
                 </div>
