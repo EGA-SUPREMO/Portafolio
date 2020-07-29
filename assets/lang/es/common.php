@@ -8,4 +8,6 @@ return [
     'made with' => 'Hecho con ',
     'close window' => 'Cerrar',
     'more info' => 'Más información',
+    'english' => 'Inglés',
+    'spanish' => 'Español',
 ];
