@@ -21,4 +21,4 @@ $portfolios = [
     include_once 'assets/lang/'.LOCALE.'/portfolio 6.php',
 ];
 
-include_once 'home.php';
+include_once 'views/home.php';
