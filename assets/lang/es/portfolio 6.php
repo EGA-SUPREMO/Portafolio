@@ -6,4 +6,5 @@ return [
     'content' => "<p class='mb-2'>Bot semiautomático, envía mensajes personalizados a perfiles de LinkedIn.</p>
 <p class='mb-2'>¡Fácil de usar y configurar!</p>",
     'stack' => 'Javascript',
+    'link' => 'https://github.com/EGA-SUPREMO/ConnectionLinker',
 ];

@@ -7,4 +7,5 @@ return [
 <p class='mb-2'>Usado por <a href='https://github.com/EGA-SUPREMO/Tankoj'>Tankoj!</a>.</p>
 <p class='mb-2'>Similar a los juegos RPG de los 90's.</p>",
     'stack' => 'Java',
+    'link' => 'https://github.com/EGA-SUPREMO/RPG-Game-template',
 ];
