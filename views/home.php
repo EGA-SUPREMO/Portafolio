@@ -167,7 +167,7 @@
                             </div>
                             <br />
                             <div id="success"></div>
-                            <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit"><?php echo $form['send']; ?></button></div>
+                            <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit" validation-failed-message-1="<?php echo $form['failed 1']; ?>" validation-failed-message-2="<?php echo $form['failed 2']; ?>" Validation-successful-message="<?php echo $form['successful']; ?>"><?php echo $form['send']; ?></button></div>
                         </form>
                     </div>
                 </div>
