@@ -154,7 +154,7 @@
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                                     <label><?php echo $form['email']; ?></label>
-                                    <input class="form-control" id="email" type="email" placeholder="<?php echo $form['email']; ?>" required="required" data-validation-required-message="<?php echo $form['email required']; ?>" />
+                                    <input class="form-control" id="email" type="email" placeholder="<?php echo $form['email']; ?>" required="required" data-validation-required-message="<?php echo $form['email required']; ?>" data-validation-validemail-message="<?php echo $form['message valid']; ?>"/>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
