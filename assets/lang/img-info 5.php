@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'type' => 'webp',
+    'type' => 'png',
     'second type' => 'jpg',
     'name' => 'safe',
 ];
