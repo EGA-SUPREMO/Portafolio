@@ -57,7 +57,7 @@
                 <div class="row">
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" onclick="lazyload(1)">
                                 <div class="text-center big"><img class="icon" src="assets/svg/expand.svg"></img></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="" />
@@ -65,7 +65,7 @@
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" onclick="lazyload(2)">
                                 <div class="text-center big"><img class="icon" src="assets/svg/expand.svg"></img></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="" />
@@ -73,7 +73,7 @@
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" onclick="lazyload(3)">
                                 <div class="text-center big"><img class="icon" src="assets/svg/expand.svg"></img></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="" />
@@ -81,7 +81,7 @@
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" onclick="lazyload(4)">
                                 <div class="text-center big"><img class="icon" src="assets/svg/expand.svg"></img></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/game.png" alt="" />
@@ -89,7 +89,7 @@
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" onclick="lazyload(5)">
                                 <div class="text-center big"><img class="icon" src="assets/svg/expand.svg"></img></div>
                             </div>
                             <picture>
@@ -101,7 +101,7 @@
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" onclick="lazyload(6)">
                                 <div class="text-center big"><img class="icon" src="assets/svg/expand.svg"></img></div>
                             </div>
                             <picture>
@@ -215,5 +215,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <script src="assets/mail/all.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="js/lazy-loading.js"></script>
     </body>
 </html>
