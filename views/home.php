@@ -60,7 +60,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="text-center big"><img class="icon" src="assets/svg/expand.svg"></img></div>
                             </div>
-                            <img class="img-fluid" data-src="assets/img/portfolio/cabin.png" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="" />
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
@@ -68,7 +68,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="text-center big"><img class="icon" src="assets/svg/expand.svg"></img></div>
                             </div>
-                            <img class="img-fluid" data-src="assets/img/portfolio/cake.png" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="" />
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
@@ -76,7 +76,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="text-center big"><img class="icon" src="assets/svg/expand.svg"></img></div>
                             </div>
-                            <img class="img-fluid" data-src="assets/img/portfolio/circus.png" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="" />
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
@@ -84,7 +84,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="text-center big"><img class="icon" src="assets/svg/expand.svg"></img></div>
                             </div>
-                            <img class="img-fluid" data-src="assets/img/portfolio/game.png" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="" />
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
@@ -95,7 +95,7 @@
                             <picture>
                                 <source type="image/webp" srcset="assets/img/portfolio/safe.webp">
                                 <source type="image/jpeg" srcset="assets/img/portfolio/safe.jpg">
-                                <img class="img-fluid" data-src="assets/img/portfolio/safe.jpg" alt=""/>
+                                <img class="img-fluid" src="assets/img/portfolio/safe.jpg" alt=""/>
                             </picture>
                         </div>
                     </div>
@@ -107,7 +107,7 @@
                             <picture>
                                 <source type="image/webp" srcset="assets/img/portfolio/submarine.webp">
                                 <source type="image/jpeg" srcset="assets/img/portfolio/submarine.jpg">
-                                <img class="img-fluid" data-src="assets/img/portfolio/submarine.jpg" alt=""/>
+                                <img class="img-fluid" src="assets/img/portfolio/submarine.jpg" alt=""/>
                             </picture>
                         </div>
                     </div>
