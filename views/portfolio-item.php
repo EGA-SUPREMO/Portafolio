@@ -19,10 +19,10 @@
                                 <picture>
                                     <source type="image/webp" srcset="assets/img/portfolio/<?php echo $imgInfos[$i]['name'];?>.webp">
                                     <source type="image/jpeg" srcset="assets/img/portfolio/<?php echo $imgInfos[$i]['name'];?>.jpg">
-                                    <img class="img-fluid rounded mb-5 lazy" data-src="assets/img/portfolio/<?php echo $imgInfos[$i]['name'];?>.jpg" alt=""/>
+                                    <img class="img-fluid rounded mb-5 lazy" data-src="assets/img/portfolio/<?php echo $imgInfos[$i]['name'];?>.jpg" id="portfolioModalImg<?php  echo $i+1; ?>"/>
                                 </picture>
                             <?php } else { ?>
-                                <img class="img-fluid rounded mb-5 lazy" data-src="assets/img/portfolio/<?php echo $imgInfos[$i]['name'].'.'.$imgInfos[$i]['type']; ?>" alt=""/>
+                                <img class="img-fluid rounded mb-5 lazy" data-src="assets/img/portfolio/<?php echo $imgInfos[$i]['name'].'.'.$imgInfos[$i]['type']; ?>" id="portfolioModalImg<?php  echo $i+1; ?>"/>
                             <?php } ?>
                             </a>
                             <h5 class="mt-1"><?php echo $portfolios[$i]['subtitle']; ?></h5>
