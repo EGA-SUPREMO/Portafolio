@@ -5,9 +5,9 @@ require __DIR__.'/vendor/autoload.php';
 error_reporting(E_ERROR | E_PARSE);
 
 $path = $_SERVER['REQUEST_URI'];
-
+var_dump($path);
 if(isset($path)) {
-    define('LOCALE', $path === 'en'? 'en' : 'es');
+    define('LOCALE', $path == 'en'? 'en' : 'es');
 } else {
     define('LOCALE', 'es');
 }
