@@ -1,6 +1,7 @@
 <?php
 
 return [
-    'type' => 'png',
+    'type' => 'webp',
+    'second type' => 'jpg',
     'name' => 'cake',
 ];
