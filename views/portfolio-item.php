@@ -17,8 +17,8 @@
                             <a href="<?php echo $portfolios[$i]['link']; ?>">
                             <?php if($imgInfos[$i]['type']==='webp') { ?>
                                 <picture>
-                                    <source type="image/webp" srcset="assets/img/portfolio/<?php echo $imgInfos[$i]['name'];?>.webp">
-                                    <source type="image/jpeg" srcset="assets/img/portfolio/<?php echo $imgInfos[$i]['name'];?>.jpg">
+                                    <source type="image/webp" data-srcset="assets/img/portfolio/<?php echo $imgInfos[$i]['name'];?>.webp">
+                                    <source type="image/jpeg" data-srcset="assets/img/portfolio/<?php echo $imgInfos[$i]['name'];?>.jpg">
                                     <img class="img-fluid rounded mb-5 lazy" data-src="assets/img/portfolio/<?php echo $imgInfos[$i]['name'];?>.jpg" id="portfolioModalImg<?php  echo $i+1; ?>"/>
                                 </picture>
                             <?php } else { ?>
