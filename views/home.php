@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<?php LOCALE ?>">
+<html lang="<?php echo LOCALE; ?>">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
