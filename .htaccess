@@ -13,6 +13,10 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml application/json app
   ExpiresActive On
   ExpiresByType text/css               "access plus 1 month"
   ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType image/jpeg             "access plus 1 month"
+  ExpiresByType image/png              "access plus 1 month"
+  ExpiresByType image/webp             "access plus 1 month"
+  ExpiresByType image/svg+xml          "access plus 2 years"
 </IfModule>
 
 # <Files *.js.br>
