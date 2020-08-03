@@ -6,7 +6,11 @@ error_reporting(E_ERROR | E_PARSE);
 
 $path = $_SERVER['REQUEST_URI'];
 
-define('LOCALE', $path ?? $path === 'en'? 'en' : 'es');
+if(isset($path)) {
+    define('LOCALE', $path === 'en'? 'en' : 'es');
+} else {
+    define('LOCALE', 'es');
+}
 
 $common = include_once 'assets/lang/'.LOCALE.'/common.php';
 $footer = include_once 'assets/lang/'.LOCALE.'/footer.php';
