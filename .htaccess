@@ -1,27 +1,10 @@
 Options +FollowSymLinks
 RewriteEngine On
 
-<ifmodule mod_deflate.c>
-    AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml...
-</ifmodule>
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
 
-<IfModule mod_headers.c>
-    # Serve brotli compressed CSS and JS files if they exist
-    # and the client accepts brotli.
-    RewriteCond "%{HTTP:Accept-encoding}" "br"
-    RewriteCond "%{REQUEST_FILENAME}\.br" "-s"
-    RewriteRule "^(.*)\.(js|css)"              "$1\.$2\.br" [QSA]
+RewriteRule ^.*$ ./index.php
 
-    # Serve correct content types, and prevent double compression.
-    RewriteRule "\.css\.br$" "-" [T=text/css,E=no-gzip:1]
-    RewriteRule "\.js\.br$"  "-" [T=text/javascript,E=no-gzip:1]
-
-    <FilesMatch "(\.js\.br|\.css\.br)$">
-        # Serve correct encoding type.
-        Header append Content-Encoding br
-
-        # Force proxies to cache brotli &
-        # non-brotli css/js files separately.
-        Header append Vary Accept-Encoding
-    </FilesMatch>
-</IfModule>
+SetOutputFilter DEFLATE
+AddOutputFilterByType DEFLATE text/html text/plain text/xml application/json application/ld+json
