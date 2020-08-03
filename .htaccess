@@ -4,7 +4,7 @@ RewriteEngine On
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 
-RewriteRule ^(.*\/en|.*\/es)$ ./index.php
+RewriteRule ^(.*en|.*es)$ ./index.php
 
 <ifmodule mod_deflate.c>
     AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml...
