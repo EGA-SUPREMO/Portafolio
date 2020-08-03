@@ -5,3 +5,25 @@ RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 
 RewriteRule ^.*$ ./index.php
+
+SetOutputFilter DEFLATE
+AddOutputFilterByType DEFLATE text/html text/plain text/xml application/json application/ld+json
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css               "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
+
+# <Files *.js.br>
+#   AddType "application/javascript" .br
+#   AddEncoding br .br
+# </Files>
+# <Files *.css.br>
+#   AddType "text/css" .br
+#   AddEncoding br .br
+# </Files>
+
+# RewriteCond %{HTTP:Accept-Encoding} br
+# RewriteCond %{REQUEST_FILENAME}.br -f
+# RewriteRule ^(.*)$ $1.br [L]
