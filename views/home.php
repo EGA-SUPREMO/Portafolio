@@ -8,16 +8,16 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Alejandro Garcia</a>
-                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">ALEJANDRO GARCIA</a>
+                <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    MENU
                     <img class="icon" src="assets/svg/bars.svg"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portafolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PORTAFOLIO</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about"><?php echo $common['about']; ?></a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact"><?php echo $common['contact']; ?></a></li>
                     </ul>
@@ -35,7 +35,7 @@
                     <source type="image/jpeg" srcset="assets/img/avataaars.png">
                     <img class="img-fluid mb-5" src="assets/img/avataaars.png"/>
                 </picture>
-                <h1 class="masthead-heading text-uppercase mb-0">Alejandro Garcia</h1>
+                <h1 class="masthead-heading mb-0">ALEJANDRO GARCIA</h1>
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <img class="icon" src="assets/svg/star.svg"></img>
@@ -46,7 +46,7 @@
         </header>
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portafolio</h2>
+                <h2 class="page-section-heading text-center text-secondary mb-0">PORTAFOLIO</h2>
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <img class="icon dark" src="assets/svg/star.svg"></img>
@@ -106,7 +106,7 @@
         </section>
         <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
-                <h2 class="page-section-heading text-center text-uppercase text-white"><?php echo $common['about']; ?></h2>
+                <h2 class="page-section-heading text-center text-white"><?php echo $common['about']; ?></h2>
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <img class="icon" src="assets/svg/star.svg"></img>
@@ -125,7 +125,7 @@
         </section>
         <section class="page-section" id="contact">
             <div class="container">
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0"><?php echo $common['contact me']; ?></h2>
+                <h2 class="page-section-heading text-center text-secondary mb-0"><?php echo $common['contact me']; ?></h2>
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <img class="icon dark" src="assets/svg/star.svg"></img>
@@ -167,7 +167,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Stack</h4>
+                        <h4 class="mb-4">STACK</h4>
                         <p class="lead mb-0">
                             PHP, Laravel, Java, Javascript
                             <br />
@@ -175,14 +175,14 @@
                         </p>
                     </div>
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4"><?php echo $footer['social buttons']; ?></h4>
+                        <h4 class="mb-4"><?php echo $footer['social buttons']; ?></h4>
                         <a class="btn btn-outline-light btn-social mx-1 i" href="https://github.com/EGA-SUPREMO"><img class="icon" src="assets/svg/github.svg"></img></a>
                         <a class="btn btn-outline-light btn-social mx-1 i" href="https://wa.me/584262464450"><img class="icon" src="assets/svg/whatsapp.svg"></img></a>
                         <a class="btn btn-outline-light btn-social mx-1 i" href="https://www.linkedin.com/in/alejandro-gar"><img class="icon" src="assets/svg/linkedin-in.svg"></img></a>
                         <a class="btn btn-outline-light btn-social mx-1 i" href="https://stackoverflow.com/users/7431197/alejandro-garcia"><img class="icon" src="assets/svg/stack-overflow.svg"></img></a>
                     </div>
                     <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4"><?php echo $footer['suggest edit']; ?></h4>
+                        <h4 class="mb-4"><?php echo $footer['suggest edit']; ?></h4>
                         <p class="lead mb-0"><?php echo $footer['suggest edit content']; ?></a>
                         </p>
                     </div>
