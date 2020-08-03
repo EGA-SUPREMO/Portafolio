@@ -84,7 +84,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" onclick="lazyload(4)">
                                 <div class="text-center big"><img class="icon" src="assets/svg/expand.svg"></img></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.thumbnail.png" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/game.thumbnail.jpg" alt="" />
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
@@ -92,11 +92,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" onclick="lazyload(5)">
                                 <div class="text-center big"><img class="icon" src="assets/svg/expand.svg"></img></div>
                             </div>
-                            <picture>
-                                <source type="image/webp" srcset="assets/img/portfolio/safe.thumbnail.webp">
-                                <source type="image/jpeg" srcset="assets/img/portfolio/safe.thumbnail.jpg">
-                                <img class="img-fluid" src="assets/img/portfolio/safe.thumbnail.jpg" alt=""/>
-                            </picture>
+                            <img class="img-fluid" src="assets/img/portfolio/safe.thumbnail.jpg" alt=""/>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
@@ -104,11 +100,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" onclick="lazyload(6)">
                                 <div class="text-center big"><img class="icon" src="assets/svg/expand.svg"></img></div>
                             </div>
-                            <picture>
-                                <source type="image/webp" srcset="assets/img/portfolio/submarine.thumbnail.webp">
-                                <source type="image/jpeg" srcset="assets/img/portfolio/submarine.thumbnail.jpg">
-                                <img class="img-fluid" src="assets/img/portfolio/submarine.thumbnail.jpg" alt=""/>
-                            </picture>
+                            <img class="img-fluid" src="assets/img/portfolio/submarine.thumbnail.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
